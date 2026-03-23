@@ -1,7 +1,9 @@
 # Open Source Audit Project
 
 **Name:** Drishti Tripathi
+
 **Roll Number:** 24BCE10039  
+
 **Software Chosen:** VLC Media Player  
 
 ## Project Description
