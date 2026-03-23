@@ -1,8 +1,8 @@
 # Open Source Audit Project
 
-###Name: Drishti Tripathi
-###Roll Number: [24BCE10039]
-###Software Chosen: VLC Media Player  
+**Name:** Drishti Tripathi
+**Roll Number:** 24BCE10039  
+**Software Chosen:** VLC Media Player  
 
 ## Project Description
 This project is an audit of the open-source software VLC Media Player. It covers its origin, license, Linux usage, ecosystem, and comparison with proprietary software.
