@@ -1,7 +1,7 @@
 # Open Source Audit Project
 
-Name: Drishti  
-Roll Number: [your roll number]  
+Name: Drishti Tripathi
+Roll Number: [24BCE10039]  
 Software Chosen: VLC Media Player  
 
 ## Project Description
