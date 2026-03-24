@@ -1,39 +1,72 @@
 # Open Source Audit Project
 
-**Name:** Drishti Tripathi
+Name: Drishti Tripathi  
+Roll Number: 24BCE10039  
+Course: Open Source Software (NGMC)  
+Software Chosen: VLC Media Player  
 
-**Roll Number:** 24BCE10039  
+--------------------------------------------------
 
-**Software Chosen:** VLC Media Player  
+## Project Overview
+This project presents a structured audit of VLC Media Player, a widely used open-source multimedia application. The report explores its origin, licensing model, Linux footprint, ecosystem, and comparison with proprietary alternatives.  
 
-## Project Description
-This project is an audit of the open-source software VLC Media Player. It covers its origin, license, Linux usage, ecosystem, and comparison with proprietary software.
+Additionally, five shell scripts are developed to demonstrate practical Linux and automation skills aligned with open-source principles.
 
-## Scripts
+--------------------------------------------------
 
-### Script 1: System Identity Report
-Displays system details like kernel version, user, uptime, and date.
+## System Requirements
+- Ubuntu Linux (or WSL Ubuntu)
+- Bash shell
+- VLC Media Player
+- Basic Linux utilities (dpkg, grep, awk, du, etc.)
 
-### Script 2: FOSS Package Inspector
-Checks if VLC is installed and shows version and description.
+--------------------------------------------------
 
-### Script 3: Disk and Permission Auditor
-Displays disk usage and permissions of important directories.
+## Setup Instructions
 
-### Script 4: Log File Analyzer
-Reads a log file and counts occurrences of a keyword like "error".
+1. Open terminal  
 
-### Script 5: Open Source Manifesto Generator
-Takes user input and generates a personalized manifesto saved to a file.
+2. Navigate to the project directory:
+   cd drishti29  
 
-## How to Run Scripts
+3. Update system packages:
+   sudo apt update  
 
-Step 1: Open terminal in project folder
+4. Install VLC Media Player:
+   sudo apt install vlc  
 
-Step 2: Give execution permission
-chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
+--------------------------------------------------
 
-Step 3: Run scripts
+## Scripts Included
+
+Script 1 — System Identity Report  
+Displays system information such as kernel version, user, uptime, and date.  
+Concepts used: variables, command substitution ($()), echo  
+
+Script 2 — FOSS Package Inspector  
+Checks whether VLC is installed and displays its version and details.  
+Concepts used: if-else, dpkg, grep, case  
+
+Script 3 — Disk and Permission Auditor  
+Analyzes key directories for disk usage and permissions.  
+Concepts used: for loop, du, ls -ld, awk  
+
+Script 4 — Log File Analyzer  
+Reads a log file, counts keyword occurrences, and shows recent matches.  
+Concepts used: while loop, grep, variables  
+
+Script 5 — Open Source Manifesto Generator  
+Generates a personalized open-source philosophy statement from user input.  
+Concepts used: read, string handling, file output (>), date  
+
+--------------------------------------------------
+
+## How to Run the Scripts
+
+Step 1: Give execution permissions  
+chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh  
+
+Step 2: Run scripts  
 
 ./script1.sh  
 ./script2.sh  
@@ -41,8 +74,26 @@ Step 3: Run scripts
 ./script4.sh /var/log/syslog error  
 ./script5.sh  
 
-## Requirements / Dependencies
+--------------------------------------------------
 
-- Linux environment (Ubuntu via WSL)
-- VLC Media Player installed
-- Basic Linux commands (dpkg, grep, awk, etc.)
+## Project Structure
+
+drishti29/
+|-- README.md
+|-- script1.sh
+|-- script2.sh
+|-- script3.sh
+|-- script4.sh
+|-- script5.sh
+
+--------------------------------------------------
+
+## Notes
+- All scripts are tested on Ubuntu (WSL environment).
+- Scripts are designed to run via terminal without GUI dependency.
+- Ensure execution permissions are granted before running scripts.
+
+--------------------------------------------------
+
+## Conclusion
+This project provided both conceptual and practical insights into open-source software. It highlights how VLC Media Player represents openness, collaboration, and flexibility, while also strengthening hands-on experience with Linux and shell scripting.
