@@ -78,6 +78,7 @@ Step 2: Run scripts
 
 ## Project Structure
 
+```
 oss-audit-24BCE10039/
 |-- README.md
 |-- script1.sh
@@ -85,6 +86,7 @@ oss-audit-24BCE10039/
 |-- script3.sh
 |-- script4.sh
 |-- script5.sh
+```
 
 --------------------------------------------------
 
