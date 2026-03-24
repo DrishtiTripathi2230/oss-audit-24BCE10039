@@ -24,17 +24,15 @@ Additionally, five shell scripts are developed to demonstrate practical Linux an
 
 ## Setup Instructions
 
-1. Open terminal  
+Open terminal and run the following commands:
 
-2. Navigate to the project directory:
-   cd drishti29  
-
-3. Update system packages:
-   sudo apt update  
-
-4. Install VLC Media Player:
-   sudo apt install vlc  
-
+```
+git clone https://github.com/DrishtiTripathi2230/oss-audit-24BCE10039.git
+cd oss-audit-24BCE10039
+sudo apt update
+sudo apt install vlc
+vlc --version
+```
 --------------------------------------------------
 
 ## Scripts Included
