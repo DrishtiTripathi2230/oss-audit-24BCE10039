@@ -78,7 +78,7 @@ Step 2: Run scripts
 
 ## Project Structure
 
-drishti29/
+oss-audit-24BCE10039/
 |-- README.md
 |-- script1.sh
 |-- script2.sh
